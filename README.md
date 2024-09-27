@@ -1,4 +1,4 @@
-# spelling-bee
+# The Spelling Bee Game
 
 Spelling Bee game that will announce a word and you must spell it correctly in the text box. 
 
