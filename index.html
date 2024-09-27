@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spelling Bee</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+        </style>
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <h1>The Spelling Bee Game</h1>
+            <h2>Spell the word correctly to get a point.</h2><h2>Three strikes and you're out!</h2>
+            <div id="word"></div>
+            <input id="user-input" type="text" placeholder="Type the word here..." spellcheck="false">
+            <button id="submit">Submit</button>
+            <button id="replay">Replay Word</button>
+            <div class="numbers">
+                <div id="score">Score: 0</div>
+                <div id="strikes">Strikes: 0</div>
+            </div>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
